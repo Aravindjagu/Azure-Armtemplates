@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storage_account_name": {
+            "value": "aravinda06142023"
+        },
+        "Virtual_network_name": {
+            "value": "RG1"
+        },
+        "VirtualmachineName": {
+            "value": "Dev-VM"
+        },
+        "VirtualmachineSize": {
+            "value": "Standard_Ds1_V2"
+        },
+        "Aravinda": {
+            "value": "Aravinda"
+        },
+        "Adminpassword": {
+            "value": "Sahithi@1234"
+        }
+    }
+}
